@@ -4,7 +4,7 @@ Este é um projeto de calculadora de gorjetas desenvolvido como parte de um desa
 
 ## Descrição
 
-O objetivo deste projeto é praticar a manipulação do DOM, oferecendo uma interface intuitiva para calcular gorjetas. A aplicação permite que os usuários insiram o valor total da conta, selecionem uma porcentagem de gorjeta e definam o número de pessoas para dividir a conta. O aplicativo, então, exibe na tela:
+O objetivo deste projeto é praticar a manipulação do DOM, oferecendo uma interface simples para calcular gorjetas. A aplicação permite que os usuários insiram o valor total da conta, selecionem uma porcentagem de gorjeta e definam o número de pessoas para dividir a conta. O aplicativo, então, exibe na tela:
 
 - O valor da gorjeta que cada pessoa deve pagar.
 - O valor total que cada pessoa pagará, incluindo a gorjeta.
