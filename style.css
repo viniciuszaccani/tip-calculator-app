@@ -7,7 +7,6 @@
 }
 
 
-
 body{
     width: 100vw;
     height: 100vh;
@@ -162,9 +161,6 @@ h3{
 
 @media only screen and (min-width: 900px) {
 
-
-    
-
     .content{
         flex-direction: row;
         justify-content: space-around;
@@ -173,14 +169,12 @@ h3{
         border-radius: 20px;
         box-shadow: 10px 4px 20px 10px rgba(0, 0, 0, 0.1);
         gap: 10px;
-
     }
 
     .content-tip{
         height: auto;
         margin-bottom: 30px;
     }
-
 
     .tips {
         flex-direction: column;
@@ -207,11 +201,9 @@ h3{
         padding: 20px 0px;
     }
 
-
     .content-value{
         width: 350px;
         padding: 60px 30px 30px 30px;
-
     }
 
     .values{
