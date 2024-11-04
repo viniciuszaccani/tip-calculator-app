@@ -6,12 +6,10 @@
     padding: 0px;
 }
 
-html{
-    width: 375px;
-}
+
 
 body{
-    width: 375px;
+    width: 100vw;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -24,7 +22,9 @@ header{
 }
 
 .content {
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 375px;
     height: auto;
     padding: 25px;
     border-radius: 30px 30px 0px 0px;
@@ -72,7 +72,7 @@ h3{
     height: 250px;
 }
 
-.teste{
+.tips{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -151,5 +151,84 @@ h3{
 
 
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution { 
+    display: none;
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media only screen and (min-width: 900px) {
+
+
+    
+
+    .content{
+        flex-direction: row;
+        justify-content: space-around;
+        width: 800px;
+        height: 440px;
+        border-radius: 20px;
+        box-shadow: 10px 4px 20px 10px rgba(0, 0, 0, 0.1);
+        gap: 10px;
+
+    }
+
+    .content-tip{
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+
+    .tips {
+        flex-direction: column;
+    }
+
+    .column{
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .tip-button{
+        width: 100px;
+        font-size: 20px;
+        height: 40px;
+    }
+
+    #tip-input{
+        width: 100px;
+        font-size: 20px;
+        height: 40px;
+    }
+
+    .fields{
+        padding: 20px 0px;
+    }
+
+
+    .content-value{
+        width: 350px;
+        padding: 60px 30px 30px 30px;
+
+    }
+
+    .values{
+        margin-bottom: 35px;
+    }
+
+    .values h2{
+        font-size: 35px;
+    }
+
+    .content-value button{
+        margin-top: 80px;
+        height: 40px;
+    }
+
+    .attribution { 
+        display: block;
+    }
+
+}
