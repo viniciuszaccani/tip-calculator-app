@@ -15,9 +15,3 @@ O objetivo deste projeto é praticar a manipulação do DOM, oferecendo uma inte
 - **HTML**: Estrutura da aplicação.
 - **CSS**: Estilização e layout da interface do usuário.
 - **JavaScript**: Lógica da aplicação e manipulação do DOM.
-
-
-
-## Status do Projeto
-
-Este projeto ainda está em desenvolvimento. Algumas funcionalidades podem estar incompletas ou sujeitas a alterações.
